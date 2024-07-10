@@ -11,7 +11,6 @@ import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import IconShoppingCartComponent from '../IconShopinCartComponent'; // Icono de carrito de compras
 import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
-import { Link } from 'react-router-dom';
 
 const pages = ['CALLE', 'SCOOTERS', 'ENDURO', 'CUSTOM'];
 
@@ -22,17 +21,11 @@ function ResponsiveAppBar() {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
   const clickEnCalle = () => {
     console.log('Hiciste click en Calle');

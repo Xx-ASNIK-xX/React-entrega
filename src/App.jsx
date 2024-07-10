@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <NavBar color='primary' />
-      <ItemListContainer greeting="Bienvenidos a Mi Tienda !" />
+      <ItemListContainer greeting="Bienvenidos a Mi Tienda xD!" />
     
     </>
   );

@@ -5,30 +5,35 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Image } from '@mui/icons-material';
 
 export default function MediaCard() {
   return (
     <Card sx={{ maxWidth: 345  }}>
               <Typography gutterBottom variant="h5" component="div">
-          Lizard
+              Motomel Skua 125
         </Typography>
       <CardMedia
-        sx={{ height: 140 }}
-        image="../assets/motoEnDuro1.jpg"
+        sx={{ height: 300 }}
+        image="https://www.aszisa.com.ar/359-large_default/moto-motomel-skua-125.jpg"
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          Lizard
+        $ 1.999.900
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        La línea skua se renueva con la incorporación de la nueva Skua 
+        125 xtreme, equipada para los terrenos más difíciles, con componentes 
+        ideales para los usuarios más aventureros, que buscan una moto on/off 
+        de calidad y accesible.
         </Typography>
       </CardContent>
       <CardActions>
         <Button size="small">Comprar</Button>
       </CardActions>
     </Card>
+    
+    
   );
 }
